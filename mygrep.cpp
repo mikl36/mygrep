@@ -2,7 +2,7 @@
 #include <string>
 #include "FileContents.h"
 
-using namespace std;
+using namespace std; // should not use
 
 // program that is a reduced version of the grep command in Linux, used version C++17
 int main(int argc, char* argv[]) { // command line arguments
