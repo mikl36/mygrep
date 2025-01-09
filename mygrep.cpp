@@ -1,9 +1,6 @@
-#include<iostream>
-#include<string> 
-#include<fstream>
-#include<algorithm>
-#include<exception>
-#include "FileContents.cpp"
+#include <iostream>
+#include <string>
+#include "FileContents.h"
 
 using namespace std;
 
