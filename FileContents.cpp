@@ -5,7 +5,7 @@
 #include <exception>
 #include <string>
 
-using namespace std;
+using namespace std; // should not use
 
 struct optionvalues { // struct for values of options, could define options outside of the functions
 	bool o = false; // false if not proven else, occurrences
