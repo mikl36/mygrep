@@ -1,8 +1,9 @@
-#include<iostream>
-#include<string> 
-#include<fstream>
-#include<algorithm>
-#include<exception>
+#include "FileContents.h"
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <exception>
+#include <string>
 
 using namespace std;
 
@@ -76,8 +77,7 @@ bool is_valid_option (const string& OPTION) {
 // print row(s) which have the keyword, options: o: occurrences of lines containing keyword, 
 // l: print row numbers containing keyword, r: reverse search, 
 // i: ignore keyword's upper or lower cases
-void search_keyword_print_keyword_row_with_options
-(const string& FILENAME, string& searchword, const string& OPTIONS = "") {
+void search_keyword_print_keyword_row_with_options(const string& FILENAME, string& searchword, const string& OPTIONS) {
 	
 	string input, original_searchword;
 	original_searchword = searchword; // let's save the original searchword
@@ -128,4 +128,3 @@ void search_keyword_print_keyword_row_with_options
 		cout << "An exception occurred: " << e.what() << endl;
 	}
 }
-
