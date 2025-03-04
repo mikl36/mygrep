@@ -10,13 +10,13 @@ The program was developed using VS Code and the C++17 programming language (stan
 
 - Four Command-Line Arguments: Executes functions based on the option(s) (2nd argument), search term (3rd argument), and filename (4th argument). The program checks if the given option is valid (-o(l,o,r,i)). If valid, the function performs the search with the specified options. The function operates similarly to the previous case but includes additional options:
 
-i: Converts the search term and file content to lowercase for case-insensitive comparison.
-
-l: Prints the line number of the matching line.
-
-o: Prints occurrences of the search term within the lines.
-
-r: Performs a reverse search, printing lines that do not contain the search term.
+   - i: Converts the search term and file content to lowercase for case-insensitive comparison.
+    
+   - l: Prints the line number of the matching line.
+    
+   - o: Prints occurrences of the search term within the lines.
+    
+   - r: Performs a reverse search, printing lines that do not contain the search term.
 
 
 ![image](https://github.com/user-attachments/assets/7bd7e020-6b6d-4c5d-9520-db2476062bb3)
